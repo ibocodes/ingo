@@ -1,0 +1,153 @@
+body{
+    background-color: #5d6d7e;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+h1{
+    text-align: center;
+    /* width: 100%; */
+    padding: 20px;
+    height: 70px;
+    background-color: #d6dbdf ;
+    color: #17202a;
+    border-radius: 10px 15px;
+    margin-top: 25px;
+}
+
+.img{
+    background-color: #d6dbdf;
+    width: 100%;
+    max-width: 350px;
+    height: 450px;
+    border-radius: 7px;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.img img{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    margin: 60px 20px;
+}
+
+.aboutme{
+    display: flex;
+    justify-items: center;
+    margin-left: 70px;
+    gap: 20px;
+}
+
+.little{
+    background-color: #d6dbdf;
+    width: 100%;
+    max-width: 350px;
+    height: 450px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.little p{
+    font-size: 17px;
+    letter-spacing: 1;
+    line-height: 1;
+    margin-top: 40px;
+    font-family: Courier, monospace;
+}
+
+.little a{
+    text-decoration: none;
+    /* cursor: pointer; */
+    font-weight: 800;
+}
+
+.little button{
+    margin: 140px 80px 0;
+    width: 190px;
+    height: 45px;
+    background-color: #5d6d7e;
+    border: none;
+    color: #d6dbdf;
+    border-radius: 5px;
+}
+
+.little button:hover{
+    background-color: #34495e;
+    cursor: pointer;
+}
+
+.skill{
+    background-color: #d6dbdf;
+    width: 100%;
+    max-width: 350px;
+    height: 450px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.skill h3{
+    margin: 50px 20px 0;
+}
+
+.skill ul{
+    margin-left: 0;
+    padding-left: 1px;
+    line-height: 2;
+    /* gap: 20px; */
+    letter-spacing: 1;
+}
+
+.second{
+    display: block;
+    width: 150px;
+    text-align: center;
+    height: 50px;
+    margin: 40px 580px;
+    border-radius: 10px;
+    color: #d6dbdf;
+    background-color: #5d6d7e;
+    box-shadow: 2px 1px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.second:hover{
+    background-color: #34495e;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1{
+        font-size: 1.7em;
+        height: 30px;
+    }
+
+    .aboutme{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .little{
+        margin-top: 0;
+    }
+
+    .second{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 190px;
+    }
+}
